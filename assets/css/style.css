@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    color: #1f2123;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Comienzo inicio */
+.presentacion{
+    margin-top: -10px;
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/inicio.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.8;
+    text-shadow: 1px 1px grey;
+}
+
+.presentacion h1{
+    font-size: 5rem;
+    font-weight: bold;
+    
+}
+
+.presentacion p{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+/* Fin Inicio */
+
+/* Comienzo acerca de */
+.descripcion{
+    margin-top: 4rem;
+    color: #1f2123;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.descripcion h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cualidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+   
+    
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.5rem;
+    border: 2px #1f2123 solid;
+    padding: 0.5rem;
+}
+
+.perfil i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3.5rem;
+    padding-top: 1rem;
+   
+}
+
+.perfil h3{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.perfil p{
+    text-align: justify;
+    font-size: 1.3rem;
+    width: 90%;
+}
+
+.perfil:hover{
+    background-color:  #1f2123;
+    color: #fff;
+}
+ 
+
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.5rem;
+    border: 2px #1f2123 solid;
+    padding: 0.5rem;
+}
+
+.habilidades i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3.5rem;
+    padding-top: 1rem;
+}
+
+.habilidades h3{
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+
+.habilidades p{
+    text-align: justify;
+    font-size: 1.3rem;
+    width: 90%;
+}
+.habilidades:hover{
+    background-color:  #1f2123;
+    color: #fff;
+}
+
+.otras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.5rem;
+
+    border: 2px #1f2123 solid;
+    padding: 0.5rem;
+}
+
+.otras i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3.5rem;
+    padding-top: 1rem;
+}
+
+.otras h3{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.otras p{
+    text-align: justify;
+    font-size: 1.3rem;
+    width: 90%;
+}
+
+.otras:hover{
+    background-color: #1f2123;
+    color: #fff;
+}
+
+/* Fin acerca de */
+
+
+
+
+/* Comienzo de estudios */
+.diplomas{
+    margin-top: 4rem;
+    color: #1f2123;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.diplomas h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+   
+}
+
+
+.ingeniero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid #1f2123;
+    gap: 1rem;
+}
+
+.ingeniero p{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.desarrollador{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid #1f2123;
+    gap: 1rem;
+}
+
+
+
+.desarrollador{
+    margin-top: 2rem;
+}
+
+.desarrollador p{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Fin estudios */
+
+/* Inicio experiencia */
+.trayectoria h2{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.trabajo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid #1f2123;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+.trabajo1 p{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.trabajo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid #1f2123;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+.trabajo2 p{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.trabajo3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid #1f2123;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+.trabajo3 p{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.trabajo4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid #1f2123;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+.trabajo4 p{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+/* inicio portafolio */
+.repertorio h2{
+    margin-top: 4rem;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+/* Fin portafolio */
+/* Inicio contacto */
+.contactame h2{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.ubicacion{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.telefono {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.telefono i{
+    font-size: 3rem;
+}
+
+.telefono p{
+    font-size: 2rem;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.email i{
+    font-size: 3rem;
+}
+
+.email p{
+    font-size: 2rem;
+}
+
+.formulario {
+    
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1f2123;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  button {
+    background-color: #1f2123;;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #1f2123;
+  }
+
+  /* Fin contacto */
+
+  /* Comienzo footer */
+  footer p{
+    background-color: #1f2123;
+    color: #fff;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
