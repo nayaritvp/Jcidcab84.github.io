@@ -202,7 +202,10 @@ body{
     display: flex;
     flex-direction: row;
 }
-
+.ingeniero:hover{
+    background-color:  #1f2123;
+    color: #fff;
+}
 
 .desarrollador{
     display: flex;
@@ -211,7 +214,10 @@ body{
     border: 2px solid #1f2123;
     gap: 1rem;
 }
-
+.desarrollador:hover{
+    background-color:  #1f2123;
+    color: #fff;
+}
 
 
 .desarrollador{
